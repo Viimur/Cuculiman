@@ -1,6 +1,6 @@
 # Cuculiman
 
-Cuculi Show: The Game is game made with Unity3d based on a youtube web series.
+Cuculi Show: The Game is a game made with Unity3d based on a youtube web series.
 
 Currently in (slow) development.
 
