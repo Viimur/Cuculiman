@@ -70,8 +70,8 @@ public class GameManager : MonoBehaviour {
 		if (healthAmount > playerHp) {
 			healthAmount = playerHp;
 		}
-			
-		//Por cada unidad de daño saca una barra de energía
+
+		//For every damage unit it removes a bar of energy
 		for (int i = 0; i < healthAmount; i++) {
 			//bars [i].SetActive (false);
 			GameObject.Find(barritas[playerHp]).GetComponent<Image>().enabled = false;
