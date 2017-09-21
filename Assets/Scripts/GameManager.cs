@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour {
 
 	void Start () {
 
-		//Importante para poder usar las funciones desde afuera
+		//Important to be able to use the functions from outside
 		if (gm == null) {
 			gm = this.gameObject.GetComponent<GameManager> ();
 		}
